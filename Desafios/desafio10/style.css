@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'android'; src:url('idroid.otf') format('opentype'), url('fontes/idroid.otf');
+}
+
+body{
+    background-color: rgb(56, 240, 138);    
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header {
+    background-image: linear-gradient(to top, #011d0f, #03743b, #05e776);
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 0px 5px #04351c4f;
+    margin:0px;
+}
+
+#principal {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+       
+}
+
+h1 {
+    font-family: 'android';
+    color: rgb(2, 63, 22);
+    padding: 10px;
+}
+
+h2{
+    background-image:linear-gradient(to right,#63d38e, #9edabc73, #9edabc17);
+    font-family: 'android';
+    color: rgb(2, 63, 22);
+    padding: 00px 0px 0px 10px;
+}
+
+.principal{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    padding: 10px; 
+}
+
+nav > a {    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;    
+    padding:10px;
+}
+
+p {
+    text-indent: 15px;
+    padding: 0px 10px 0px 10px;
+}
+
+.destaque {
+    color: #03743b;
+    font-size: 1.1em;
+}
+
+.ancora::after{
+    content: '🔗';    
+}
+
+.visto::before{
+    content: '✓';
+}
+
+main {
+    background-color: white;
+    padding: 1px 0px;
+    margin: 0px 95px 20px 95px;
+    border-radius: 0px 0px 15px 15px ;
+    box-shadow: 0px 0px 10px 0px #04351c;
+}
+
+#imagem {
+    margin: 0px 0px 0px 15px;
+}
+
+#video {
+    background-color: #03743b;
+    text-align: center;
+    padding: 10px;
+     
+}
+
+h3{
+    background-color: #03743b;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin: 25px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+
+#extra {
+    background-color: #6ce29db9;
+    text-align: left;  
+    color: black;
+    border-radius:15px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 0px #468f647c;
+       
+}
+
+.links {
+    background-color: rgb(255, 255, 255);
+}
+
+.links > a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.container {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 10px;    
+}
+.dreita{
+    width: 300px;
+    height: 150px;
+    text-align: left;
+}
+.esquerda{
+    width: 300px;
+    height: 150px;
+    text-align: left;     
+}
+
+.direita > a {
+    text-decoration: none;
+    color: black;
+}
+
+.esquerda > a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #011d0f;    
+    color: white;
+    text-align: center;    
+}
+
+footer > p {
+    padding: 5px;
+    margin-bottom: 0px;
+}
