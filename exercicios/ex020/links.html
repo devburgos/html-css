@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body { 
+            font-family: Arial, Helvetica, sans-serif;
+          }
+        
+          a { 
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(128, 12, 12);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+       a:active {
+        color: yellow;
+       }
+
+       h1{
+        background-color: aquamarine;
+        color: blue ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif ;
+        text-align: center;
+       }
+       .principal:hover {
+       background-color: black;
+        color: white;
+       }
+
+       .principal > p { display: none;
+       font-size:20px;
+       background-color: rgb(82, 209, 99);
+
+       }
+
+       .secundario:hover {
+        text-decoration: none;
+       }
+       .principal:hover > p {
+        display: block;
+        text-decoration:none;
+
+       }
+
+       .secundario::after {
+        content:' ➽'
+       }
+
+       
+
+    </style>
+</head>
+<body>
+    <h1 class="principal">Personalisando Links <p  class="secundario"><a   href="https://www.cursoemvideo.com" target="_blank" rel="external">Vá para o meu site</a></p></h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" rel="external">Site do Curso em Vídeo</a></li>
+    </ul>
+    
+</body>
+</html>
