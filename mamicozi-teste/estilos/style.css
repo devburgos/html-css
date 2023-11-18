@@ -503,6 +503,8 @@ footer iframe{
     }
 
     #box-titulos > span {
+    padding-top: 120px;
+    padding-bottom: var(--espacamento-pequeno);
       font-size: 4em;
     }
 
