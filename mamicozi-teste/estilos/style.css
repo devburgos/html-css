@@ -199,9 +199,8 @@ p{
     padding: 0px 2px;
 
     font-size: 0.7em;
-    font-weight: bold; 
     
-    line-height: 25px;
+    line-height: 20px;
 }
 
 
@@ -237,8 +236,9 @@ a#alfinete-home img:hover{
 
 
 #box-enc-antecedencia p {
+    margin: 15px 0px;
+    padding: 0px;
     font-size: 0.65em;
-    font-weight: bold;
        
 }
 
@@ -318,15 +318,15 @@ strong.icones {
 
 a.botao-pedir {
     margin-top: 5px;
-    padding-top: 5px;
+    padding-top: 7px;
 
     width: 100%;
     height: 40px;
 
     font-family: var(--font-subtitulo);
     font-weight: bold;
-    font-size: 1.2em;
-    letter-spacing: 5px;
+    font-size: 1em;
+    letter-spacing: 2px;
 
     text-decoration: none;
     text-shadow: 1px 2px 1px black;
@@ -382,6 +382,21 @@ a.botao-pedir {
 
 #img-opcao-07 {
     background: url('../imagens/opcao7.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#img-opcao-08 {
+    background: url('../imagens/opcao8.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#img-opcao-09 {
+    background: url('../imagens/opcao9.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#img-opcao-10 {
+    background: url('../imagens/opcao10.jpg') center center no-repeat;
     background-size: cover;
 }
 
