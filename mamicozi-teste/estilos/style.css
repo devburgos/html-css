@@ -16,8 +16,8 @@
 
 /*ROOT*/
 :root {
-    --cor-branco-titulo: rgba(236, 232, 232, 0.783);
-    --cor-preto-opaco-capa:rgba(0, 0, 0, 0.289);
+    --cor-branco-titulo: rgba(236, 232, 232, 0.897);
+    --cor-preto-opaco-capa:rgba(0, 0, 0, 0.611);
     --cor-marrom-claro:#cfbbb3e8;
     --cor-marrom-pagina: #8c5f4e;
     --cor-marrom-escuro:#461907;
@@ -59,21 +59,21 @@ main > h3 {
 /*CONTAINER READER IMAGEM DE FUNDO*/
 /*CONFIGURAÇÕES DO HEADER*/
 header{
-    height: 300px; 
+    height: 550px; 
     background: url('../imagens/capa.jpg') left top no-repeat;
     background-size: cover;
     color: var(--cor-branco-titulo);   
 }
 
 #box-titulos {
-  height: 300px;
+  height: 550px;
   width:100%;
   background-color: var(--cor-preto-opaco-capa);
 }
 
 h1 {  
     font-family: var(--font-titulo);    
-    height: 150px;  
+    height: 250px;  
     font-size: 4em;
     font-weight:lighter;
     text-shadow: 2px 2px 1px black;
@@ -89,7 +89,7 @@ span::before {
     content: "";
     width: 300px;
     position: absolute;
-    top: 150px;  
+    top: 290px;  
 
     transition: 1s linear;
     transition-timing-function: ease;
@@ -104,20 +104,20 @@ span::after{
     left: 50%;
     margin: -4px 0 0 -9px;
     position: absolute;
-    top: 150px;  
+    top: 290px;  
     transform: rotate(-45deg);      
 }
 
 
 #box-titulos > span {
-    padding-top: var(--espacamento-medio);
+    padding-top: 90px;
     padding-bottom: var(--espacamento-pequeno);
-    height: 50px;
+    height: 70px;
     color:var(--cor-branco-titulo);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2em;
+    font-size: 3em;
     text-shadow: 2px 2px 1px black;     
 }
 
@@ -125,12 +125,12 @@ span::after{
 h2 {   
     color: var(--cor-branco-titulo);
     font-family: var(--font-subtitulo); 
-    height: var(--espacamento-maior);  
+    height:92px;  
     font-size: 1em;
     font-weight: lighter; 
     text-shadow: 2px 2px 1px black;
     display: flex;
-    align-items: end; 
+    align-items: center; 
     justify-content: center; 
 }
 
