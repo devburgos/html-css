@@ -135,20 +135,18 @@ h2 {
 }
 
 /*CONTAINER READER IMAGEM DE FUNDO*/
-/*PRIMEIRO ARTIGO DE INTERVALO*/
-.container-fundo-intervalo {
-    height: 240px;     
-}
-
-#intervalo-01 {
+/*ARTIGO DE INTERVALO*/
+#container-fundo-intervalo {
+    height: 320px;     
     background: url('../imagens/objetivo.jpg') top center no-repeat;
-    background-size:cover;
+    background-size:cover
 }
 
-article#intervalo-01 
-.paragrafo-intervalo {
+#paragrafo-intervalo {
     background-color: rgba(255, 255, 255, 0.50);
-    height: 240px;
+    height: 320px;
+    line-height: 35px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -216,10 +214,10 @@ img{
 
 #box-informacoes-entrega 
 p {
-    margin: 7px 0px 0px 0px;
+    margin: 7px 0px 0px 10px;
     padding: 0px;
-    font-size: 0.55em;
-    line-height: 12px;
+    font-size: 0.7em;
+    line-height: 15px;
 
     display: flex;
     flex-direction: column; 
@@ -239,8 +237,9 @@ a#alfinete-home img:hover{
 
 
 #box-enc-antecedencia p {
-    font-size: 0.55em;
-    font-weight: bold;      
+    font-size: 0.65em;
+    font-weight: bold;
+       
 }
 
 /*TITULO CARDÁPIO*/
@@ -431,7 +430,7 @@ section#horario > div > p{
 
 
 footer{
-    height: 300px;
+    height: 320px;
     background-color: var(--cor-marrom-claro);
 
     display: flex;
@@ -449,7 +448,7 @@ footer p {
 }
 
 #mamicozi-contato {
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 /*BORDA ANTES E DEPOIS DO MAPA*/
@@ -504,10 +503,7 @@ footer iframe{
     }
 
     #box-titulos > span {
-      padding-top: 40px;
-      padding-bottom: 10px;
-      height: 70px;
-      font-size: 3em;
+      font-size: 4em;
     }
 
     h2 {   
@@ -515,31 +511,18 @@ footer iframe{
     }
 
  /*CONTAINER PRECO E ENTREGA*/
-    #container-preco-entrega {   
-        height: 200px;
+    
+ #box-preco {
+        height: 130px;
     }
 
-    .padrao-preco-entrega 
-    p{
-        line-height: 28px;
-    }
+ #preco {        
+        margin:55px 0px -20px;
+        padding: 0px 2px;
 
-    #box-preco {
-        height: 160px; 
+        font-size: 0.9em;
     }
-
-    #box-preco 
-    p { 
-        height: 50%;
-        margin-top: 1px;   
-        font-size: 1.5em;
-    }
-
-
-    #box-forma-pag
-    img{
-        width: 30px; 
-    }
+     
 
     #box-informacoes-entrega 
     p {
@@ -573,14 +556,13 @@ footer iframe{
   }
 
   #box-titulos > span {
-      padding-top: 40px;
-      padding-bottom: 20px;
-      height: 70px;
-      font-size: 4em;
+      padding-top: 120px;
+      padding-bottom: var(--espacamento-pequeno);
+      font-size: 5em;
   }
 
   h2 {   
-      font-size: 1.8em;
+      font-size: 1.9em;
       margin-top: 10px;
   }
 
@@ -595,20 +577,14 @@ p{
 }
 
 #box-preco {
-    height: 160px; 
+    height: 130px;
 }
 
-#box-preco 
-p { 
-    height: 50%;
-    margin-top: 1px;   
-    font-size: 1.5em;
-}
+#preco {        
+    margin:55px 0px -20px;
+    padding: 0px 2px;
 
-
-#box-forma-pag
-img{
-    width: 30px; 
+    font-size: 0.9em;
 }
 
 #box-informacoes-entrega 
