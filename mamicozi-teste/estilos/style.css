@@ -470,7 +470,7 @@ footer p {
 footer p#p-iframe-mapa 
 a::before,
 footer p#copyright::before {
-    width: 320px;   
+    width: 290px;   
     padding-top: 2px;
 
     border-top: 2px solid var(--cor-branco-titulo); 
