@@ -187,36 +187,30 @@ p{
     
     background: url('../imagens/fundo-preco.png') center center no-repeat;
     background-size: contain;
-    
-    display: flex; 
-    align-items: center;
-    justify-content: center; 
-    flex-direction: column;    
-}
-
-#box-preco 
-p { 
-    height: 50%;
-    margin-top: -7px;
-    
-    font-size: 0.8em;
-}
-
-#box-forma-pag{
-    height: 50%;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+}
+
+#box-preco p {
+    height: 30px;
+    width: 70%;
+
+    margin:auto;
+    padding: 0px;
+
+    font-size: 0.6em;
+    font-weight: bold;
 }
 
 
-#box-forma-pag
-img{
-    width: 20px;
-    margin: 2px 5px 10px 5px;   
-}
 
+#box-preco
+img{   
+    width: 15px; 
+    margin-bottom: -2px;     
+}
 
 #box-informacoes-entrega 
 p {
